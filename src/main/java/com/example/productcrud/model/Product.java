@@ -2,6 +2,7 @@ package com.example.productcrud.model;
 
 import java.time.LocalDate;
 
+<<<<<<< HEAD
 import jakarta.persistence.*;
 import org.springframework.format.annotation.DateTimeFormat;
 
@@ -29,6 +30,19 @@ public class Product {
 
     private boolean active;
 
+=======
+import org.springframework.format.annotation.DateTimeFormat;
+
+public class Product {
+
+    private Long id;
+    private String name;
+    private Category category;
+    private long price;
+    private int stock;
+    private String description;
+    private boolean active;
+>>>>>>> 4e31360d37b84fa2a8bf54262fd4168fa42e8929
     @DateTimeFormat(pattern = "yyyy-MM-dd")
     private LocalDate createdAt;
 

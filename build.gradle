@@ -19,6 +19,7 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
     implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
 
+<<<<<<< HEAD
     // JPA & PostgreSQL
     implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
     runtimeOnly 'org.postgresql:postgresql'
@@ -26,6 +27,8 @@ dependencies {
     // Load .env file
     implementation 'me.paulschwarz:spring-dotenv:4.0.0'
 
+=======
+>>>>>>> 4e31360d37b84fa2a8bf54262fd4168fa42e8929
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 

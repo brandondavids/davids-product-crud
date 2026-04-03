@@ -1,4 +1,7 @@
 .gradle
 .idea
 build
+<<<<<<< HEAD
 .env
+=======
+>>>>>>> 4e31360d37b84fa2a8bf54262fd4168fa42e8929
