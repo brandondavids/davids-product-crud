@@ -42,6 +42,7 @@ public class ProductController {
     @GetMapping("/products/new")
     public String showCreateForm(Model model) {
         Product product = new Product();
+        product.setCreatedAt(LocalDate.now());
         model.addAttribute("product", product);
         model.addAttribute("categories", Category.values());
         return "product/form";
